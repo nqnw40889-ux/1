@@ -1,0 +1,45 @@
+{
+  "dataset": "AI4I 2020 synthetic",
+  "dataset_sha256": "dc6630cd9b1f0f853922fad78a1b6436570d3f1ec863f1dd5c4340ac56bc8a8e",
+  "split_seed": 42,
+  "train_ranges": {
+    "Air temperature [K]": {
+      "min": 295.3,
+      "max": 304.5
+    },
+    "Process temperature [K]": {
+      "min": 305.7,
+      "max": 313.8
+    },
+    "Rotational speed [rpm]": {
+      "min": 1168.0,
+      "max": 2886.0
+    },
+    "Torque [Nm]": {
+      "min": 3.8,
+      "max": 76.6
+    },
+    "Tool wear [min]": {
+      "min": 0.0,
+      "max": 253.0
+    }
+  },
+  "selection": "Validation AP; minimum validation cost at fixed ratio; F1 as reference",
+  "calibrated": false,
+  "miss_cost": 5,
+  "false_alarm_cost": 1,
+  "policies": {
+    "Cost": 0.19851931464468806,
+    "F1": 0.26603712601094476
+  },
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "versions": {
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scikit-learn": "1.8.0",
+    "lightgbm": "4.7.0",
+    "xgboost": "3.4.1",
+    "joblib": "1.5.3",
+    "imbalanced-learn": "0.14.2"
+  }
+}

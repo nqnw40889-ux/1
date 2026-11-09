@@ -1,0 +1,3 @@
+source_row,Type,Air temperature [K],Process temperature [K],Rotational speed [rpm],Torque [Nm],Tool wear [min],Machine failure
+6497,L,300.8,309.9,1312,65.3,192,1
+844,L,296.5,307.5,1566,35.1,206,0

@@ -1,0 +1,4 @@
+Split,Samples,Normal,Failure,Failure rate
+Train,7000,6763,237,0.033857142857142856
+Validation,1500,1449,51,0.034
+Test,1500,1449,51,0.034
